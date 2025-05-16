@@ -1,0 +1,131 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f7f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+.page-background {
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  background: transparent;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-icon {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.brand-subtitle {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #cbd5e0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.url-input-group {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-control {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.input-group-text {
+  padding: 0.75rem 1.25rem;
+  background-color: #457b9d;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #457b9d;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.input-group-text:hover {
+  background-color: #1d3557;
+}
+
+.results-section {
+  margin-top: 2rem;
+}
+
+.result-card {
+  background: white;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.result-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1d3557;
+}
+
+pre {
+  background-color: #f1f3f5;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
